@@ -14,7 +14,7 @@ module.exports = {
     BASE_URL : "https://upper-romy-inrl-bot.koyeb.app/",
     REPO: "inrl-official/inrl-bot-md",
     BGM_URL : process.env.BGM_URL || "null",
-    REJECT_CALL : toBool(process.env.REJECT_CALL || 'false'),
+    REJECT_CALL : toBool(process.env.REJECT_CALL || 'true'),
     BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'false'),
     ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
     PM_BLOCK : toBool(process.env.PM_BLOCK || "false"),
@@ -30,17 +30,17 @@ module.exports = {
     READ : process.env.READ ||  "false",//true, command
     CHATBOT : process.env.CHATBOT || "false",//true, pm, group
     REACT : process.env.REACT || "false",//true, command, emoji
-    WARNCOUND : process.env.WARNCOUND || 5,
+    WARNCOUND : process.env.WARNCOUND || 3,
     BOT_INFO : process.env.BOT_INFO || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
-    WORKTYPE : process.env.WORKTYPE || "private",
+    WORKTYPE : process.env.WORKTYPE || "public",
     PREFIX : process.env.PREFIX || "[.,!]",//both  .  and [.] equal, for multi prefix we use [] this
     LANG : process.env.LANG || "en",
     PERSONAL_MESSAGE: process.env.PERSONAL_MESSAGE || "null",
     BOT_PRESENCE : process.env.BOT_PRESENCE || "unavailable",
     AUDIO_DATA : process.env.AUDIO_DATA || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
-    STICKER_DATA : process.env.STICKER_DATA || "inrl;inrl",
+    STICKER_DATA : process.env.STICKER_DATA || "mhmd",
     BRAINSHOP: process.env.BRAINSHOP || '172372,nbjE0YAlyw3cpoMl',
-    SUDO : process.env.SUDO || "null",
+    SUDO : process.env.SUDO || "971545002610",
     RMBG_KEY: process.env.RMBG_KEY,
     OPEN_AI: process.env.OPEN_AI,
     ELEVENLABS: process.env.ELEVENLABS,
